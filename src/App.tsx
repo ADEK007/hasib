@@ -30,7 +30,7 @@ import { ToastProvider } from "./context/ToastContext";
 function App() {
   return (
     <ToastProvider>
-      <Router basename="/">
+      <Router basename="/hasib">
         <AnimatePresence mode="wait">
           <Routes>
             {/* 🌍 Public Layout */}
